@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function WhyChooseUs() {
   return (
     <section className="w-full bg-white">
@@ -31,14 +33,18 @@ export default function WhyChooseUs() {
         {/* RIGHT IMAGES */}
         <div className="relative flex w-full">
           {/* Main big image */}
-          <img
+          <Image
             src="/erp-dev.svg"
+            width={600}
+            height={400}
             className="w-100 rounded-xl align-top justify-end shadow-md"
             alt=""
           />
 
           {/* Overlapping laptop UI */}
-          <img
+          <Image
+            width={600}
+            height={400}
             src="/portal.svg"
             className="
               absolute 
@@ -78,7 +84,9 @@ export default function WhyChooseUs() {
 
         {/* RIGHT MOBILE IMAGE */}
         <div className="flex justify-center md:justify-end">
-          <img
+          <Image
+            width={600}
+            height={400}
             src="/mobile-ui.svg"
             className=" md:w-52 lg:w-140 drop-shadow-xl"
             alt=""

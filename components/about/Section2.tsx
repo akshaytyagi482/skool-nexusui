@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Section2 = () => {
@@ -13,7 +14,7 @@ const Section2 = () => {
     pointer-events-none
   "
 >
-  <img
+  <Image
     src="/about/phonecut.svg"
     alt="Skool Nexus Interface"
     className="w-lg"
@@ -59,7 +60,7 @@ const Section2 = () => {
 
     {/* ================= IMAGE (NORMAL FLOW ON MOBILE/TAB) ================= */}
     <div className="lg:hidden mt-14 flex justify-center">
-      <img
+      <Image
         src="/about/phone.svg"
         alt="Skool Nexus Interface"
         className="w-full max-w-sm sm:max-w-md"

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function CommunitySection() {
@@ -24,7 +25,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 const Star = ({ type }: { type: "full" | "half" }) => (
-  <img
+  <Image
     src={type === "full" ? "/icons/star-full.svg" : "/icons/star-half.svg"}
     className="w-4 h-4"
     alt=""
@@ -58,7 +59,7 @@ const Star = ({ type }: { type: "full" | "half" }) => (
 
           {/* LEFT IMAGE (STATIC) */}
           <div className="w-full md:w-1/2">
-            <img
+            <Image
               src="/about/community.svg" // your provided image
               alt="Community"
               className="rounded-xl w-full max-w-md"

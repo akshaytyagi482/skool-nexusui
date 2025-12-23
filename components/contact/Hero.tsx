@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero = () => {
@@ -94,7 +95,7 @@ const Hero = () => {
 
     {/* RIGHT IMAGE */}
     <div className="relative flex justify-center lg:justify-end">
-      <img
+      <Image
         src="/contact/titanium.svg" // <-- your combined phone image
         alt="Skool Nexus Mobile Preview"
         className="relative

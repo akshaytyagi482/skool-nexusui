@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider2 from './Slider2'
+import Image from 'next/image'
 
 const Section3 = () => {
   return (
@@ -14,7 +15,7 @@ const Section3 = () => {
 
     {/* RIGHT SIDE – Image */}
     <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-      <img
+      <Image
         src="/pricing/computer2.svg"
         alt="Skool Nexus Basic Preview"
         className="w-full object-contain"

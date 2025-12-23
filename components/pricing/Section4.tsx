@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from './Slider'
+import Image from 'next/image'
 
 const Section4 = () => {
   return (
@@ -7,7 +8,7 @@ const Section4 = () => {
   {/* ================= BACKGROUND DECORATION ================= */}
 
   {/* Left Desktop */}
-  <img
+  <Image
     src="/pricing/left.svg"
     alt=""
     className="
@@ -23,7 +24,7 @@ const Section4 = () => {
   />
 
   {/* Right Laptop */}
-  <img
+  <Image
     src="/pricing/right1.svg"
     alt=""
     className="
@@ -39,7 +40,7 @@ const Section4 = () => {
   />
 
   {/* Bottom Mobile */}
-  <img
+  <Image
     src="/pricing/right2.svg"
     alt=""
     className="

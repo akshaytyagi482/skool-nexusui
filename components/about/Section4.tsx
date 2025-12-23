@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Section4 = () => {
@@ -14,12 +15,12 @@ const Section4 = () => {
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Basic Customization</span>
-          <img src="/icons/arrow-up-right.svg" className="w-4 h-4" />
+          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt=''/>
         </div>
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Access Control</span>
-          <img src="/icons/arrow-up-right.svg" className="w-4 h-4" />
+          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt='' />
         </div>
       </div>
 
@@ -97,12 +98,12 @@ const Section4 = () => {
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Exams</span>
-          <img src="/icons/arrow-up-right.svg" className="w-4 h-4" />
+          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt='' />
         </div>
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Finances</span>
-          <img src="/icons/arrow-up-right.svg" className="w-4 h-4" />
+          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt='' />
         </div>
       </div>
 

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero = () => {
@@ -7,7 +8,7 @@ const Hero = () => {
 
     {/* Logo */}
     <div className="flex justify-center mb-4">
-      <img
+      <Image
         src="/logo.svg" // replace with your logo path
         alt="Skool Nexus Logo"
         className="h-8 w-auto"
@@ -40,7 +41,7 @@ const Hero = () => {
       
       {/* Image 1 */}
       <div className="bg-gray-100 rounded-xl p-4 flex justify-center">
-        <img
+        <Image
           src="/feature-1.svg"
           alt="Dashboard Preview"
           className="w-full max-w-xs object-contain"
@@ -49,7 +50,7 @@ const Hero = () => {
 
       {/* Image 2 */}
       <div className="bg-gray-100 rounded-xl p-4 flex justify-center">
-        <img
+        <Image
           src="/feature-2.svg"
           alt="Laptop Preview"
           className="w-full max-w-xs object-contain"
@@ -58,7 +59,7 @@ const Hero = () => {
 
       {/* Image 3 */}
       <div className="bg-gray-100 rounded-xl flex justify-center">
-        <img
+        <Image
           src="/feature-3.svg"
           alt="Mobile Preview"
           className="w-full max-w-74 object-contain"
