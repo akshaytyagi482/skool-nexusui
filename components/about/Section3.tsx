@@ -3,6 +3,16 @@
 import Image from "next/image";
 import { useState } from "react";
 
+const Star = ({ type }: { type: "full" | "half" }) => (
+  <Image
+    src={type === "full" ? "/icons/star-full.svg" : "/icons/star-half.svg"}
+    width={16}
+    height={16}
+    className="w-4 h-4"
+    alt=""
+  />
+);
+
 export default function CommunitySection() {
     interface Testimonial {
   rating: number; // e.g. 4.5
@@ -24,13 +34,6 @@ const testimonials: Testimonial[] = [
     author: "Sarah Wilson",
   },
 ];
-const Star = ({ type }: { type: "full" | "half" }) => (
-  <Image
-    src={type === "full" ? "/icons/star-full.svg" : "/icons/star-half.svg"}
-    className="w-4 h-4"
-    alt=""
-  />
-);
 
   const [index, setIndex] = useState(0);
 
@@ -62,6 +65,8 @@ const Star = ({ type }: { type: "full" | "half" }) => (
             <Image
               src="/about/community.svg" // your provided image
               alt="Community"
+              width={400}
+              height={300}
               className="rounded-xl w-full max-w-md"
             />
           </div>

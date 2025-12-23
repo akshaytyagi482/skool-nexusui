@@ -17,6 +17,8 @@ const Section2 = () => {
   <Image
     src="/about/phonecut.svg"
     alt="Skool Nexus Interface"
+    width={400}
+    height={600}
     className="w-lg"
   />
 </div>
@@ -33,14 +35,14 @@ const Section2 = () => {
       </h2>
 
       <p className="mt-4 text-sm sm:text-base text-gray-300 leading-relaxed">
-        school management shouldn't be harder than education itself. We saw
+        school management shouldn&apos;t be harder than education itself. We saw
         administrators drowning in paperwork, teachers burdened by
         inefficiencies, and students lost in outdated systems—so we built a
         platform that turns chaos into clarity.
       </p>
 
       <p className="mt-6 text-sm text-gray-400 leading-relaxed">
-        That’s why we design every feature by walking the halls first—listening
+        That&apos;s why we design every feature by walking the halls first—listening
         to administrators, teachers, and students. Why struggle with patchwork
         systems when you can have a platform that transforms school operations
         from burden to breakthrough?
@@ -63,6 +65,8 @@ const Section2 = () => {
       <Image
         src="/about/phone.svg"
         alt="Skool Nexus Interface"
+        width={400}
+        height={600}
         className="w-full max-w-sm sm:max-w-md"
       />
     </div>

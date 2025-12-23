@@ -17,7 +17,7 @@ const faqs = [
     a: "Absolutely. Skool Nexus uses enterprise-grade encryption, role-based access, and GDPR-compliant data protection standards.",
   },
   {
-    q: "Can I customize the ERP for my school’s unique needs?",
+    q: "Can I customize the ERP for my school&apos;s unique needs?",
     a: "Yes, Skool Nexus is fully customizable — from modules to workflows, dashboards, reports, and more.",
   },
   {
@@ -92,7 +92,7 @@ export default function FaqSection() {
       {/* Footer */}
       <div className="text-center mt-20">
         <p className="text-[30px] text-gray-500">
-          Still have questions? We're here to{" "}
+          Still have questions? We&apos;re here to{" "}
           <span className="text-[#6A33FF] font-medium">help</span>.
         </p>
 

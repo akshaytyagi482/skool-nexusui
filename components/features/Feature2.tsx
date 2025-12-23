@@ -197,7 +197,7 @@ educational institutions
             className="inline ml-2"
             alt="AI-Powered Insights badge"
             width={10}
-                height={40}
+            height={10}
                 />
         </button>
       )}

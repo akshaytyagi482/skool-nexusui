@@ -11,6 +11,8 @@ const Hero = () => {
       <Image
         src="/logo.svg" // replace with your logo path
         alt="Skool Nexus Logo"
+        width={100}
+        height={32}
         className="h-8 w-auto"
       />
     </div>
@@ -29,7 +31,7 @@ const Hero = () => {
     {/* Static Case Study Tag */}
     <div className="mt-4">
         <p className="mt-3 text-sm sm:text-base text-gray-500 max-w-2xl mx-auto">
-      See how we've helped schools like yours
+      See how we&apos;ve helped schools like yours
     </p>
       <div className="inline-block text-xs font-medium px-4 py-1.5 bg-accent text-white">
         Case Study
@@ -44,6 +46,8 @@ const Hero = () => {
         <Image
           src="/feature-1.svg"
           alt="Dashboard Preview"
+          width={400}
+          height={300}
           className="w-full max-w-xs object-contain"
         />
       </div>
@@ -53,15 +57,19 @@ const Hero = () => {
         <Image
           src="/feature-2.svg"
           alt="Laptop Preview"
+          width={400}
+          height={300}
           className="w-full max-w-xs object-contain"
         />
       </div>
 
-      {/* Image 3 */}
+      {/* Imagee 3 */}
       <div className="bg-gray-100 rounded-xl flex justify-center">
         <Image
           src="/feature-3.svg"
           alt="Mobile Preview"
+          width={400}
+          height={300}
           className="w-full max-w-74 object-contain"
         />
       </div>

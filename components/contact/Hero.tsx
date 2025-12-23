@@ -98,6 +98,8 @@ const Hero = () => {
       <Image
         src="/contact/titanium.svg" // <-- your combined phone image
         alt="Skool Nexus Mobile Preview"
+        width={600}
+        height={800}
         className="relative
       lg:absolute
       lg:-top-36

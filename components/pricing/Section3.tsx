@@ -17,6 +17,8 @@ const Section3 = () => {
     <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
       <Image
         src="/pricing/computer2.svg"
+        width={400}
+        height={400}
         alt="Skool Nexus Basic Preview"
         className="w-full object-contain"
       />

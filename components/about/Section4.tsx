@@ -15,12 +15,12 @@ const Section4 = () => {
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Basic Customization</span>
-          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt=''/>
+          <Image src="/icons/arrow-up-right.svg" width={16} height={16} className="w-4 h-4" alt=''/>
         </div>
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Access Control</span>
-          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt='' />
+          <Image src="/icons/arrow-up-right.svg" width={16} height={16} className="w-4 h-4" alt='' />
         </div>
       </div>
 
@@ -98,12 +98,12 @@ const Section4 = () => {
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Exams</span>
-          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt='' />
+          <Image src="/icons/arrow-up-right.svg" width={16} height={16} className="w-4 h-4" alt='' />
         </div>
 
         <div className="flex items-center justify-between text-gray-600 cursor-pointer">
           <span>Finances</span>
-          <Image src="/icons/arrow-up-right.svg" className="w-4 h-4" alt='' />
+          <Image src="/icons/arrow-up-right.svg" width={16} height={16} className="w-4 h-4" alt='' />
         </div>
       </div>
 

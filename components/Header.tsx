@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -22,17 +23,17 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-16 text-gray-700">
-          <a className="hover:text-black" href="/">Home</a>
-          <a className="hover:text-black" href="about">About</a>
-          <a className="hover:text-black" href="features">Features</a>
-          <a className="hover:text-black" href="pricing">Pricing</a>
-          <a className="hover:text-black" href="contact">Contact</a>
-          <a
+          <Link className="hover:text-black" href="/">Home</Link>
+          <Link className="hover:text-black" href="about">About</Link>
+          <Link className="hover:text-black" href="features">Features</Link>
+          <Link className="hover:text-black" href="pricing">Pricing</Link>
+          <Link className="hover:text-black" href="contact">Contact</Link>
+          <Link
             href="#book"
             className="ml-4 inline-block bg-accent text-white px-4 py-2 rounded-md text-sm"
           >
             Book a Demo
-          </a>
+          </Link>
         </nav>
 
         {/* Mobile Hamburger */}
@@ -73,18 +74,18 @@ export default function Header() {
         `}
       >
         <nav className="flex flex-col px-6 py-4 text-gray-700 gap-4 text-[17px]">
-          <a className="hover:text-black transition" href="/">Home</a>
-          <a className="hover:text-black transition" href="/about">About</a>
-          <a className="hover:text-black transition" href="/features">Features</a>
-          <a className="hover:text-black transition" href="/pricing">Pricing</a>
-          <a className="hover:text-black transition" href="/contact">Contact</a>
+          <Link className="hover:text-black transition" href="/">Home</Link>
+          <Link className="hover:text-black transition" href="/about">About</Link>
+          <Link className="hover:text-black transition" href="/features">Features</Link>
+          <Link className="hover:text-black transition" href="/pricing">Pricing</Link>
+          <Link className="hover:text-black transition" href="/contact">Contact</Link>
 
-          <a
+          <Link
             href="#book"
             className="bg-accent text-white px-4 py-2 w-fit rounded-md text-center mt-2"
           >
             Book a Demo
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

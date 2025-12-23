@@ -11,6 +11,8 @@ const Section4 = () => {
   <Image
     src="/pricing/left.svg"
     alt=""
+    width={200}
+    height={200}
     className="
       pointer-events-none
       hidden
@@ -27,6 +29,8 @@ const Section4 = () => {
   <Image
     src="/pricing/right1.svg"
     alt=""
+    width={200}
+    height={200}
     className="
       pointer-events-none
       hidden
@@ -42,6 +46,9 @@ const Section4 = () => {
   {/* Bottom Mobile */}
   <Image
     src="/pricing/right2.svg"
+    width={200}
+    height={200}
+    
     alt=""
     className="
       pointer-events-none
