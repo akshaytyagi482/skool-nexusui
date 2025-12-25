@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function Plans() {
   return (
     <section className="w-full bg-white py-24 px-6">
       <div className="max-w-5xl mx-auto text-center">
 
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+        <h2 className="text-2xl md:text-3xl font-inter font-semibold text-gray-900">
           Our Pricing Plans are designed to be{" "}
           <span className="text-accent">affordable</span>,{" "}
           <span className="text-accent">flexible</span> and tailored to your needs
@@ -12,6 +14,10 @@ export default function Plans() {
 
         <p className="mt-3 text-sm text-gray-500">
           10+ Satisfied Schools
+        </p>
+        <p className="flex mt-4 gap-2 at-center justify-center ">
+          <span className="bg-accent px-2 py-1 text-white">Monthly</span>
+          <span className="text-black px-2 py-1">Yearly</span>
         </p>
 
         {/* Pricing Cards */}
@@ -34,16 +40,16 @@ export default function Plans() {
             </button>
 
             <ul className="mt-6 space-y-3 text-sm">
-              <li>✅ Up to 300 students</li>
-              <li>✅ Core modules (Admission, Attendance, Exams)</li>
-              <li>✅ Basic reporting</li>
-              <li>✅ Email support</li>
-              <li>✅ Mobile app access</li>
-              <li>✅ Regular updates</li>
-              <li className="text-gray-400">✖ Advanced analytics</li>
-              <li className="text-gray-400">✖ Custom branding</li>
-              <li className="text-gray-400">✖ API access</li>
-              <li className="text-gray-400">✖ Dedicated account manager</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Up to 300 students</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Core modules (Admission, Attendance, Exams)</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Basic reporting</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Email support</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Mobile app access</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Regular updates</li>
+              <li className="text-gray-400 flex items-center gap-2"><span>✖</span> Advanced analytics</li>
+              <li className="text-gray-400 flex items-center gap-2"><span>✖</span> Custom branding</li>
+              <li className="text-gray-400 flex items-center gap-2"><span>✖</span> API access</li>
+              <li className="text-gray-400 flex items-center gap-2"><span>✖</span> Dedicated account manager</li>
             </ul>
           </div>
 
@@ -64,16 +70,16 @@ export default function Plans() {
             </button>
 
             <ul className="mt-6 space-y-3 text-sm">
-              <li>✅ Up to 2,000 students</li>
-              <li>✅ All Basic features</li>
-              <li>✅ All modules included</li>
-              <li>✅ Advanced reporting & analytics</li>
-              <li>✅ Priority support</li>
-              <li>✅ Custom branding</li>
-              <li>✅ API access</li>
-              <li>✅ Data migration assistance</li>
-              <li className="text-gray-400">✖ Dedicated account manager</li>
-              <li className="text-gray-400">✖ Custom development</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Up to 2,000 students</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> All Basic features</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> All modules included</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Advanced reporting & analytics</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Priority support</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Custom branding</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> API access</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Data migration assistance</li>
+              <li className="text-gray-400 flex items-center gap-3"><span>✖</span> Dedicated account manager</li>
+              <li className="text-gray-400 flex items-center gap-3"><span>✖</span> Custom development</li>
             </ul>
           </div>
 
@@ -91,15 +97,15 @@ export default function Plans() {
             </button>
 
             <ul className="mt-6 space-y-3 text-sm">
-              <li>✅ Unlimited students</li>
-              <li>✅ All Pro features</li>
-              <li>✅ Multi-branch management</li>
-              <li>✅ Dedicated account manager</li>
-              <li>✅ Custom development</li>
-              <li>✅ 24/7 premium support</li>
-              <li>✅ On-site training</li>
-              <li>✅ Advanced security features</li>
-              <li>✅ Custom integrations</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Unlimited students</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} />✅ All Pro features</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Multi-branch management</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Dedicated account manager</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Custom development</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> 24/7 premium support</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> On-site training</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Advanced security features</li>
+              <li className="flex items-center gap-2"><Image src="/tick.svg" alt="tick" width={20} height={20} /> Custom integrations</li>
             </ul>
           </div>
 

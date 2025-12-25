@@ -8,7 +8,7 @@ const Star = ({ type }: { type: "full" | "half" }) => (
     src={type === "full" ? "/icons/star-full.svg" : "/icons/star-half.svg"}
     width={16}
     height={16}
-    className="w-4 h-4"
+    className="w-5 h-5 mr-8"
     alt=""
   />
 );
@@ -72,7 +72,7 @@ const testimonials: Testimonial[] = [
           </div>
 
           {/* RIGHT SLIDER */}
-          <div className="w-full md:w-1/2 overflow-hidden relative">
+          <div className="w-full md:w-96 overflow-hidden relative">
 
             {/* Sliding content */}
             <div
@@ -93,7 +93,7 @@ const testimonials: Testimonial[] = [
               </div>
 
               {/* Text */}
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-gray-600 text-md leading-relaxed">
                 {t.text}
               </p>
 

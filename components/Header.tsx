@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   // prevent scrolling when menu is open
   useEffect(() => {
@@ -23,11 +25,11 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-16 text-gray-700">
-          <Link className="hover:text-black" href="/">Home</Link>
-          <Link className="hover:text-black" href="about">About</Link>
-          <Link className="hover:text-black" href="features">Features</Link>
-          <Link className="hover:text-black" href="pricing">Pricing</Link>
-          <Link className="hover:text-black" href="contact">Contact</Link>
+          <Link className={`${pathname === "/" ? "text-accent" : ""}`} href="/">Home</Link>
+          <Link className={`${pathname === "/about" ? "text-accent" : ""}`} href="about">About</Link>
+          <Link className={`${pathname === "/features" ? "text-accent" : ""}`} href="features">Features</Link>
+          <Link className={`${pathname === "/pricing" ? "text-accent" : ""}`} href="pricing">Pricing</Link>
+          <Link className={`${pathname === "/contact" ? "text-accent" : ""}`} href="contact">Contact</Link>
           <Link
             href="#book"
             className="ml-4 inline-block bg-accent text-white px-4 py-2 rounded-md text-sm"
@@ -74,11 +76,11 @@ export default function Header() {
         `}
       >
         <nav className="flex flex-col px-6 py-4 text-gray-700 gap-4 text-[17px]">
-          <Link className="hover:text-black transition" href="/">Home</Link>
-          <Link className="hover:text-black transition" href="/about">About</Link>
-          <Link className="hover:text-black transition" href="/features">Features</Link>
-          <Link className="hover:text-black transition" href="/pricing">Pricing</Link>
-          <Link className="hover:text-black transition" href="/contact">Contact</Link>
+          <Link className={`hover:text-black transition px-2 py-1 rounded ${pathname === "/" ? "bg-accent/10 text-accent" : ""}`} href="/">Home</Link>
+          <Link className={`hover:text-black transition px-2 py-1 rounded ${pathname === "/about" ? "bg-accent/10 text-accent" : ""}`} href="/about">About</Link>
+          <Link className={`hover:text-black transition px-2 py-1 rounded ${pathname === "/features" ? "bg-accent/10 text-accent" : ""}`} href="/features">Features</Link>
+          <Link className={`hover:text-black transition px-2 py-1 rounded ${pathname === "/pricing" ? "bg-accent/10 text-accent" : ""}`} href="/pricing">Pricing</Link>
+          <Link className={`hover:text-black transition px-2 py-1 rounded ${pathname === "/contact" ? "bg-accent/10 text-accent" : ""}`} href="/contact">Contact</Link>
 
           <Link
             href="#book"

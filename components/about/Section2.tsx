@@ -24,39 +24,66 @@ const Section2 = () => {
 </div>
   <div className="max-w-6xl px-8 mx-auto relative">
 
-    <div className="max-w-2xl text-white relative z-10">
+    <div className="max-w-2xl flex flex-col justify-between gap-30 text-white relative z-10">
+      <div>
 
-      <h3 className="text-lg font-medium text-gray-300">
+      <h3 className="text-3xl  leading-[112%]
+    tracking-[0.42px] font-plusjakarta">
         Founded in 2025
       </h3>
 
-      <h2 className="mt-2 text-2xl sm:text-3xl font-semibold leading-snug">
+      <h2 className="text-3xl  leading-[112%]
+    tracking-[0.42px]">
         Skool Nexus was born from a simple idea:
       </h2>
 
-      <p className="mt-4 text-sm sm:text-base text-gray-300 leading-relaxed">
+      <p className="text-sm sm:text-base  leading-[112%]
+    tracking-[0.42px] font-plusjakarta  text-gray-300">
         school management shouldn&apos;t be harder than education itself. We saw
         administrators drowning in paperwork, teachers burdened by
         inefficiencies, and students lost in outdated systems—so we built a
         platform that turns chaos into clarity.
       </p>
 
-      <p className="mt-6 text-sm text-gray-400 leading-relaxed">
+      <p className="mt-6 text-sm text-gray-400  leading-[112%]
+    tracking-[0.42px]">
         That&apos;s why we design every feature by walking the halls first—listening
         to administrators, teachers, and students. Why struggle with patchwork
         systems when you can have a platform that transforms school operations
         from burden to breakthrough?
       </p>
+      </div>
+ <div>
+      <h3
+  className="
+    text-[32px]
+    leading-[80%]
+    font-sans
+    font-plusjakarta
+  "
+>
+  Today, we empower:
+</h3>
 
-      <h3 className="mt-10 text-lg font-semibold">
-        Today, we empower:
-      </h3>
+<ul
+  className="
+    mt-4
+    space-y-2
+    list-disc
+    list-inside
+    text-[22px]
+    leading-[100%]
+    font-plusjakarta
+    font-light
+    text-gray-300
+  "
+>
+  <li>10,000+ students to focus on learning, not logistics</li>
+  <li>50+ schools to replace spreadsheets with smart automation</li>
+  <li>Educators to reclaim 15+ hours weekly for what matters</li>
+</ul>
+ </div>
 
-      <ul className="mt-4 space-y-2 text-sm sm:text-base text-gray-300 list-disc list-inside">
-        <li>10,000+ students to focus on learning, not logistics</li>
-        <li>50+ schools to replace spreadsheets with smart automation</li>
-        <li>Educators to reclaim 15+ hours weekly for what matters</li>
-      </ul>
     </div>
 
 

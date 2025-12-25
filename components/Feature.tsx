@@ -28,6 +28,7 @@ const extraFeatures: Feature[] = [
 
 export default function FeaturesSection() {
   const [showMore, setShowMore] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   const allFeatures = showMore
     ? [...initialFeatures, ...extraFeatures]
@@ -54,7 +55,12 @@ export default function FeaturesSection() {
         {allFeatures.map((f, i) => (
           <div
             key={i}
-            className="border border-gray-200 rounded-xl py-6 flex flex-col items-center gap-3 hover:shadow-[0_2px_15px_rgba(0,0,0,0.07)] transition"
+            onClick={() => setSelectedIndex(selectedIndex === i ? null : i)}
+            className={`border rounded-xl py-6 flex flex-col items-center gap-3 hover:shadow-[0_2px_15px_rgba(0,0,0,0.07)] transition cursor-pointer ${
+              selectedIndex === i
+                ? "border-accent bg-accent/10"
+                : "border-gray-200"
+            }`}
           >
             <div className="w-fit rounded-full flex items-center justify-center shadow-sm bg-gray-50">
               <Image

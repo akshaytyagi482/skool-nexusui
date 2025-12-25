@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-6 mt-10 text-sm">
         <div>
           <p className="font-medium flex items-center gap-2">
-            📞 Phone
+            <Image src="/contact/phone.svg" alt="Phone" width={24} height={24} /> Phone
           </p>
           <p className="text-gray-600 mt-1">+91 7289890084</p>
           <p className="text-xs text-gray-400 mt-1">
@@ -27,7 +27,7 @@ const Hero = () => {
 
         <div>
           <p className="font-medium flex items-center gap-2">
-            ✉️ Email
+            <Image src="/contact/email.svg" alt="Email" width={24} height={24} /> Email
           </p>
           <p className="text-gray-600 mt-1">support@skoolnexus.live</p>
           <p className="text-xs text-gray-400 mt-1">
@@ -37,7 +37,7 @@ const Hero = () => {
 
         <div>
           <p className="font-medium flex items-center gap-2">
-            📣 Sales
+            <Image src="/contact/sale.svg" alt="Sales" width={24} height={24} /> Sales
           </p>
           <p className="text-gray-600 mt-1">support@skoolnexus.live</p>
           <p className="text-xs text-gray-400 mt-1">
@@ -49,7 +49,7 @@ const Hero = () => {
       {/* Info Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mt-14 text-sm">
         <div>
-          <h4 className="font-semibold text-gray-900">
+          <h4 className="font-medium text-[20px] text-gray-900">
             Customer Support
           </h4>
           <p className="text-gray-500 mt-2 leading-relaxed">
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h4 className="font-semibold text-gray-900">
+          <h4 className="font-medium text-[20px] text-gray-900">
             Feedback and Suggestions
           </h4>
           <p className="text-gray-500 mt-2 leading-relaxed">
@@ -71,7 +71,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h4 className="font-semibold text-gray-900">
+          <h4 className="font-medium text-[20px] text-gray-900">
             Media Inquiries
           </h4>
           <p className="text-gray-500 mt-2 leading-relaxed">
@@ -82,7 +82,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h4 className="font-semibold text-gray-900">
+          <h4 className="font-medium text-[20px] text-gray-900">
             Educator Community
           </h4>
           <p className="text-gray-500 mt-2 leading-relaxed">

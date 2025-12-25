@@ -7,30 +7,64 @@ export default function Hero() {
 
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-4xl md:text-6xl font-medium leading-tight">
-            Transforming <br />
-            Schools with <br />
-            <span className="text-accent font-bold">Smart ERP</span> Solutions
-          </h1>
+          <h1 className="
+  font-plusjakarta
+  text-[40px] leading-[52px]
+  md:text-[72px] md:leading-[88px]
+  tracking-[-0.02em]
+  font-medium
+">
+  Transforming <br />
+  Schools with <br />
+  <span className="text-accent font-semibold">
+    Smart ERP
+  </span>{' '}
+  Solutions
+</h1>
 
-          <p className="mt-6 text-gray-600 max-w-xl">
-            A Unified Platform for Seamless Management & Digital
-            Transformation of Educational Institutions.
-          </p>
+          <p
+  className="
+    mt-6
+    max-w-xl
+    text-[20px]
+    leading-[32px]
+    font-normal
+    text-gray-600
+  "
+>
+  A Unified Platform for Seamless Management & Digital
+  Transformation of Educational Institutions.
+</p>
 
           <div className="mt-8 flex gap-4">
-            <a className="bg-accent text-white md:px-6 md:py-3 px-4 py-2 rounded-lg ">
-              Book a Free Demo
-            </a>
-            <a className="border border-gray-300  md:px-6 md:py-3 px-4 py-2 rounded-lg text-gray-700">
-              Explore Features →
-            </a>
-          </div>
+            <a
+  className="
+    bg-accent
+    text-white
+    px-4 py-2
+    md:px-6 md:py-3
+    rounded-lg
+    text-[16px]
+    font-medium
+  "
+>
+  Book a Free Demo
+</a>
 
-          <div className="mt-8 flex gap-6 items-center text-sm text-gray-500">
-            <div>5+ Years in the Field</div>
-            <div>10k+ Students</div>
-            <div>10+ Schools</div>
+           <a
+  className="
+    border border-gray-300
+    text-gray-700
+    px-4 py-2
+    md:px-6 md:py-3
+    rounded-lg
+    text-[16px]
+    font-medium
+  "
+>
+  Explore Features →
+</a>
+
           </div>
         </div>
 

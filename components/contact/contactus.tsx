@@ -11,7 +11,7 @@ const Contactus = () => {
     </h2>
 
     {/* Subheading */}
-    <p className="text-gray-500 mt-3 max-w-2xl mx-auto text-sm md:text-base">
+    <p className="text-gray-500 font-Plusjakarta mt-3 max-w-2xl mx-auto text-sm md:text-base">
       Let Skool Nexus automate the chaos. Schedule a free demo to see how
       500+ schools streamlined their operations—with answers to all your
       questions.

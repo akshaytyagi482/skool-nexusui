@@ -100,7 +100,7 @@ export default function Slider({
     >
       {/* Heading */}
       <div className="text-center">
-        <h2 className="text-3xl sm:text-6xl font-semibold">
+        <h2 className="text-3xl sm:text-6xl font-medium">
   {title.split(" ").map((word, index) => (
     <span
       key={index}

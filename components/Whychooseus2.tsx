@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function WhyChooseUs2() {
   return (
-   <section className="w-full flex justify-center items-center pt-20 max-lg:pb-76 max-md:pb-10 pb-130 px-4">
-  <div className="w-full max-w-[] mx-auto relative">
+   <section className="max-w-[1400px] relative mx-auto flex justify-center items-center pt-20 max-lg:pb-76 max-md:pb-10 pb-130 px-4">
+  <div className="w-full mx-auto relative">
   {/* LAPTOP (DESKTOP) */}
   
   {/* BOX */}
@@ -32,27 +32,43 @@ export default function WhyChooseUs2() {
     <div className="relative z-10">
 
       {/* HEADING */}
-      <h2 className="text-[42px] md:text-[50px] font-bold mb-14">
-        Why Choose Us ?
-      </h2>
+    <h2
+  className="
+    text-[36px] leading-[44px]
+    md:text-[72px] md:leading-[88px]
+    tracking-[-0.02em]
+    font-bold
+    mb-14
+  "
+>
+  Why Choose Us ?
+</h2>
+
 
       {/* STATS */}
       <div className="flex flex-wrap gap-12 md:gap-20 mb-16">
             <div>
-              <p className="text-[40px] font-bold leading-none">5+</p>
-              <p className="text-sm opacity-80">Years<br />in the Field</p>
-            </div>
+  <p className="text-[48px] leading-[60px] tracking-[-0.02em] font-medium">5+</p>
+  <p className="text-[18px] leading-7 font-medium opacity-80">
+    Years <br /> in the Field
+  </p>
+</div>
 
-            <div>
-              <p className="text-[40px] font-bold leading-none">10k+</p>
-              <p className="text-sm opacity-80">Students<br />have Benefitted</p>
-            </div>
+<div>
+  <p className="text-[48px] leading-[60px] tracking-[-0.02em] font-medium">10k+</p>
+  <p className="text-[18px] leading-7 font-medium opacity-80">
+    Students <br /> have Benefitted
+  </p>
+</div>
 
-            <div>
-              <p className="text-[40px] font-bold leading-none">10+</p>
-              <p className="text-sm opacity-80">Schools<br />have joined us</p>
-            </div>
-          </div>
+<div>
+  <p className="text-[48px] leading-[60px] tracking-[-0.02em] font-medium">10+</p>
+  <p className="text-[18px] leading-7 font-medium opacity-80">
+    Schools <br /> have joined us
+  </p>
+</div>
+</div>
+
 
 
       {/* STACKED IMAGE + STORY */}
@@ -79,7 +95,17 @@ md:w-[600px]
 
             {/* STORY */}
             <div className="max-w-lg relative">
-              <h3 className="text-[26px] font-semibold mb-4">Our Story</h3>
+             <h3
+  className="
+    text-[24px] leading-[32px]
+    md:text-[36px] md:leading-[104%]
+    tracking-[0.34px]
+    font-bold
+    mb-1
+  "
+>
+  Our Story
+</h3>
 
               <p className="text-[16px] opacity-90 leading-[1.7] mb-6">
                 Founded in 2025, Skool Nexus emerged from a vision to revolutionize
@@ -124,7 +150,7 @@ md:w-[600px]
       width={1650}
       height={750}
       className="object-contain w-full 
-      max-lg:-top-55 -top-70 absolute z-20"
+      max-lg:-top-55 lg:left-20  -top-70 absolute z-20"
     />
   </div>
 

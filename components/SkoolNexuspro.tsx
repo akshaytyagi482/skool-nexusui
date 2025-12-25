@@ -94,7 +94,7 @@ export default function FeatureSlider() {
       <div className="text-center mb-14">
         
         <h4 className="text-3xl sm:text-7xl mt-1">
-          SKOOL NEXUS <span className="text-accent">PRO</span>
+          Skool Nexus <span className="text-accent">PRO</span>
         </h4>
         
       </div>

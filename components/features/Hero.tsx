@@ -9,12 +9,12 @@ export default function Hero() {
         Work Less, Achieve More –
       </h1>
 
-      <h2 className="text-[30px] sm:text-6xl font-bold leading-tight mt-1 text-black">
+      <h2 className="text-[30px] sm:text-6xl font-semibold leading-tight mt-1 text-black">
         The Smarter Way to Run Schools
       </h2>
 
       {/* iMAC IMAGE */}
-      <div className="w-full relative lg:-top-20 md:-top-20 sm:-top-14 flex justify-center ">
+      <div className="w-full relative lg:-top-22  md:-top-20 sm:-top-14 flex justify-center ">
         <Image
           src="/imac.svg"
           alt="iMac Display"
